@@ -1,21 +1,6 @@
 body { 
-    z-index: 0;
-    background-image:
-    url(".../img/hogwarts.jpg")
-    
+    background-image: url("../img/hogwarts.jpg")
     background-size: cover;
-
-    background-position-x:
-    0%,
-    100%;
-    
-
-    background-position-y:
-    0%,
-    100%;
-
-
-    background-repeat: no-repeat;
     background-color: black;
 }
 
@@ -26,6 +11,7 @@ body {
         url('../font/HARRP.ttf')
         format('truetype');
 }
+
 /* Container Element */
 div {
     font-family: 'hogwarts';
@@ -62,21 +48,19 @@ h1 {
   }
 
   #nameForm {
-    background-color: rgba(34, 33, 33, 0.4);
+    background-color: black;
     border: 5px solid white;
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 30px;
  }
 
  .studentCard {
-    background: rgb(61, 61, 61);
+    background: black;
     color: white;
     border: 5px solid white;
     -moz-border-radius: 100px / 50px;
     -webkit-border-radius: 100px / 50px;
     border-radius: 75px / 75px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #sortButton {
@@ -87,73 +71,32 @@ h1 {
     margin-left: 78px;
 }
 
-
-  /* 
-
-.houses {
-  width: 25%;
-  height: 35%;
-  margin-top: 50px;
-  margin-left: 38%;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.studentCard {
-        background: rgb(61, 61, 61);
-        color: white;
-        border: 5px solid white;
-        -moz-border-radius: 100px / 50px;
-        -webkit-border-radius: 100px / 50px;
-        border-radius: 100px / 50px;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.Hufflepuff {
-    background: rgb(214, 214, 2);
-    color: white;
-    border: 5px solid black;
-}
-
-.Slytherin{
-    background: green;
-    color: white;
-    border: 5px solid silver;
-}
-
-.Ravenclaw {
-    background: blue;
-    color: white;
-    border: 5px solid rgb(117, 93, 93);
+label {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
 }
 
 .Gryffindor{
-    background: rgb(119, 28, 28);
-    color: white;
-    border: 5px solid rgb(196, 142, 5);
+    color: rgb(238,186,4);
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: white;
 }
 
-#mainHeader{
-font-family: MagicSchoolOne;
-display: flex;
-justify-content: center;
-font-size: 100px;
+.Slytherin {
+    color: rgb(42,98,61);
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: white;
 }
 
-.jumbotron {
-    background-color: rgba(34, 33, 33, 0.4);
-    border: 8px solid white;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-family: WizardOfTheMoon;
-    font-size: 20px;
- }
+.Hufflepuff {
+    color: rgb(114,98,85);
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: white;
+}
 
-
-
-
-
- .nameLabel {
-     display: flex;
-     justify-content: center;
- } */
+.Ravenclaw {
+    color: rgb(34,47,91);
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: white;
+}
