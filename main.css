@@ -1,9 +1,4 @@
-body { 
-    background-image: url("../img/hogwarts.jpg")
-    background-size: cover;
-    background-color: black;
-}
-
+/* CSS for Sorting Hat Project */
 @font-face {
     font-family: 'hogwarts';
     local: 'HARRP__';
@@ -12,7 +7,11 @@ body {
         format('truetype');
 }
 
-/* Container Element */
+/* Elements */
+body {
+    background-color: black;
+}
+
 div {
     font-family: 'hogwarts';
 }
@@ -21,54 +20,13 @@ h1 {
     text-align: center;
     font-size: 3em;
     padding: 0;
+    margin: 20px;
     text-transform: uppercase;
     background: -webkit-linear-gradient(#eee, #333);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 5px 5px rgb(0, 0, 0);
-    margin: 20px;
-}
-
-.mt-0 {
-    margin-top: 20px !important;
-  }
-  
-  .ml-1 {
-    margin-left: ($spacer * .25) !important;
-  }
-  
-  .px-2 {
-    padding-left: ($spacer * .5) !important;
-    padding-right: ($spacer * .5) !important;
-  }
-  
-  .p-3 {
-    padding: $spacer !important;
-  }
-
-  #nameForm {
-    background-color: black;
-    border: 5px solid white;
-    color: white;
-    font-size: 30px;
- }
-
- .studentCard {
-    background: black;
-    color: white;
-    border: 5px solid white;
-    -moz-border-radius: 100px / 50px;
-    -webkit-border-radius: 100px / 50px;
-    border-radius: 75px / 75px;
-}
-
-#sortButton {
-    margin-left: 130px;
-}
-
-.expelButton{
-    margin-left: 78px;
 }
 
 label {
@@ -77,6 +35,37 @@ label {
     text-transform: uppercase;
 }
 
+/* IDs */
+#nameForm {
+    background-color: black;
+    border: 5px solid white;
+    color: white;
+    font-size: 30px;
+}
+
+#sortButton {
+    margin-left: 130px;
+}
+
+/* Classes */
+.mt-0 {
+    margin-top: 20px;
+}
+
+.studentCard {
+    background: black;
+    color: white;
+    border: 5px solid white;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 75px / 75px;
+}
+
+.expelButton{
+    margin-left: 78px;
+}
+
+/* House Colors */
 .Gryffindor{
     color: rgb(238,186,4);
     -webkit-text-stroke: 0.2px;
